@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+Module for asynchronous coroutine using asyncio.
+"""
 import asyncio
 import random
 
