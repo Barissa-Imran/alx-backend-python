@@ -1,11 +1,16 @@
-#!/usr/bin/env/ python3
+#!/usr/bin/env python3
 """
 A module for testing utils module
 """
 import unittest
 from typing import Dict, Tuple, Union
 from parameterized import parameterized
-from utils import access_nested_map
+
+from utils import (
+    access_nested_map,
+    get_json,
+    memoize,
+)
 
 
 class TestAccessNestedMap(unittest.TestCase):
@@ -41,3 +46,4 @@ class TestAccessNestedMap(unittest.TestCase):
 
 class TestGetJson(unittest.TestCase):
     """Tests the `get_json` function"""
+    # @parameterized
